@@ -1,0 +1,9 @@
+cloud-config:
+  name: <cloud platform name>
+gitlab-config:
+  access:
+    name: <gitlab user name>
+    password: <gitlab user password>
+  access-type: <personal or group>
+gitlab-projects:
+  - name: <gitlab project url>
